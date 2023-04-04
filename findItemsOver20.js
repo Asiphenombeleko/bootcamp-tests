@@ -13,7 +13,6 @@ function findItemsOver20(itemList){
          over20.push(itemList[i])
           }
         }
-        git 
       return over20
-
+      
     }
