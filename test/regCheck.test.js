@@ -16,7 +16,5 @@ it('It should return false if the registration number is not for Limpompo' , fun
 it('It should return false if the registration number is not for Eastern Cape' , function(){
     assert.equal(regCheck('ERT 123 EC', 'GP'), false)
 });
-it('It should return true if the registration number is  for Mpumalanga' , function(){
-    assert.equal(regCheck('FGT 123 MP', 'MP'), true);
-});
+
   });

@@ -11,4 +11,9 @@ it('It should return  Hello, Alunamda' , function(){
   assert.equal("Hello, Alunamda", greet("Alunamda"));
 });
 
+it('It should return no name was greeted if an empty string was passed' , function(){
+  assert.equal("no name was greeted", greet(""));
+});
+
+
 });

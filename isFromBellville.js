@@ -1,11 +1,16 @@
 function isFromBellville(registration){
+  
     if(registration.startsWith("CY")){
     return true; 
   }
-  else if(registration.startsWith("CJ")){
+  
+   if(registration.startsWith("CJ")){
   return false;
   }
+  else if(registration !==null && registration !==""){
+    return (registration.length);
+  }
   else{ 
-  return unknown ;
+  return "no number in the string" ;
   }
   }
