@@ -9,7 +9,8 @@ describe('Test my findItemsOver20 function' , function(){
         ];
         assert.deepEqual(findItemsOver20(itemList),[{name : 'pears', qty : 37},{name : 'bananas', qty : 27}]);
     });
-    
-
-  
+    it('It should return  number not bigger than 20' , function(){
+        
+    assert.deepEqual(findItemsOver20(itemList)[{name : 'pears', qty : 37},'number not bigger than 20']);
+});
   });
